@@ -1,11 +1,11 @@
 {
 
-  
+
 	"manifest_version": 2,
   
-	"name": "German_Word_Translator",
+	"name": "__German_Word_Translator__",
   
-	"description": "GWT_Description",
+	"description": "__GWT_Description__",
   "version": "1.0",
   "default_locale": "en",
   "applications": {
