@@ -1,2 +1,2 @@
-# FirefoxExtension
-Placeholder, testing out context menu &amp; css panels
+German Word Translator
+Highlight a german word, gives translation
