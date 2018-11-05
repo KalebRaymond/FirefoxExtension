@@ -1,11 +1,11 @@
 {
   "extensionName": {
-    "message": "Menu demo",
+    "message": "German Word Translator",
     "description": "Name of the extension."
   },
 
   "extensionDescription": {
-    "message": "Demonstrates the menus API.",
+    "message": "Gives English definition of highlighted German word.",
     "description": "Description of the add-on."
   },
 
@@ -17,36 +17,6 @@
   "menuItemRemoveMe": {
     "message": "Remove me!",
     "description": "Title of context menu item that removes itself when clicked."
-  },
-
-  "menuItemGreenify": {
-    "message": "Greenify",
-    "description": "Title of context menu item that adds a green border when clicked."
-  },
-
-  "menuItemBluify": {
-    "message": "Bluify",
-    "description": "Title of context menu item that adds a green border when clicked."
-  },
-
-  "menuItemCheckMe": {
-    "message": "Check me",
-    "description": "Title of context menu item when the item is checked."
-  },
-
-  "menuItemUncheckMe": {
-    "message": "Uncheck me",
-    "description": "Title of context menu item when the item is unchecked."
-  },
-
-  "menuItemOpenSidebar": {
-    "message": "Open sidebar",
-    "description": "Title of context menu item that opens a sidebar."
-  },
-
-  "menuItemToolsMenu": {
-    "message": "Click me!",
-    "description": "Title of tools menu item."
   }
 
 }
