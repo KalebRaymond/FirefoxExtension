@@ -30,17 +30,19 @@ function onError(error) {
 Create all the context menu items.
 */
 browser.menus.create({
-  id: "log-selection",
-  title: browser.i18n.getMessage("menuItemSelectionLogger"),
-  contexts: ["selection"]
+  id: "translate-selection",
+  title: browser.i18n.getMessage("menuItemSelectionTranslator"),
+  contexts: ["selection"],
+  command: "_execute_page_action"
 }, onCreated);
 
+/*
 The click event listener, where we perform the appropriate action given the
 ID of the menu item that was clicked.
 */
 browser.menus.onClicked.addListener((info, tab) => {
   switch (info.menuItemId) {
-    case "log-selection":
+    case "translate-selection":
       console.log(info.selectionText);
       break;
   }
