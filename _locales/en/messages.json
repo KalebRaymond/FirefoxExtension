@@ -9,14 +9,9 @@
     "description": "Description of the add-on."
   },
 
-  "menuItemSelectionLogger": {
-    "message": "Log '%s' to the browser console",
-    "description": "Title of context menu item that logs the selected text when clicked."
-  },
-
-  "menuItemRemoveMe": {
-    "message": "Remove me!",
-    "description": "Title of context menu item that removes itself when clicked."
+  "menuItemSelectionTranslator": {
+    "message": "Translate '%s' to english",
+    "description": "Title of context menu item that searches for translation for the selected text when clicked."
   }
 
 }
