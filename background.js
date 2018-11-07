@@ -33,7 +33,7 @@ browser.menus.create({
   id: "translate-selection",
   title: browser.i18n.getMessage("menuItemSelectionTranslator"),
   contexts: ["selection"],
-  command: "_execute_page_action"
+  command: "_execute_browser_action"
 }, onCreated);
 
 /*
