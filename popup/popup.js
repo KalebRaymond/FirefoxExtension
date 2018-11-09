@@ -167,6 +167,10 @@ function updateNote(delNote,newTitle,newBody) {
   }, onError);
 }
 
+/* Function to retrieve selected text */
+function getSelectedText(sel) {
+	return window.getSelectedText();
+}
 /* Clear all notes from the display/storage */
 
 function clearAll() {
