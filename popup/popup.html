@@ -8,7 +8,16 @@
   </head>
 
 <body>
-  <h1 id="header">Select some text from the page</h1>	
+  <h1 id="header">
+  </h1>	
+  
+  <p id="sh1"></p>
+  <!--<script src="popup.js"></script>-->
+    <script>
+		document.getElementById("header").innerHTML = "Boy";
+		document.getElementById("sh1").innerHTML = window.getSelection();
+	</script>
+	
   <!-- <div class="outer-wrapper">
     <div class="new-note">
       <input type="text">
@@ -24,10 +33,7 @@
     </div>
   </div> -->
 
-  <!--<script type="text/javascript" src="popup.js">-->
-  <script>
-	document.getElementById("header").innerHTML = "boy";
-  </script>
+  
 	
 </body>
 
