@@ -21,12 +21,22 @@ body {
 }
 
 p.query{
+	position: absolute;
+	top: 0px;
+	right: 1200px;
+	width: 300px;
 	color: white;
+	word-wrap: break-word;
 	text-align: justify;
     text-justify: inter-word;
 }
 
 p.wall-of-text{
+	position: absolute;
+	top: 0px;
+	right: 800px;
+	width: 300px;
+	word-wrap: break-word;
 	color: black;
 	text-align: justify;
     text-justify: inter-word;
