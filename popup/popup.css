@@ -20,13 +20,13 @@ body {
   height: inherit;
 }
 
-p #query{
+p.query{
 	color: white;
 	text-align: justify;
     text-justify: inter-word;
 }
 
-p #wall_of_text{
+p.wall-of-text{
 	color: black;
 	text-align: justify;
     text-justify: inter-word;
