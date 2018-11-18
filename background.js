@@ -26,24 +26,30 @@ function onError(error) {
   console.log(`Error: ${error}`);
 }
 
+const germanWord = info => {
+	let selectedText = info.selectionText;
+	console.log(selectedText);
+	
+	browser.notifications.create({
+		"type": "basic",
+		"title": `${selectedText}`,
+		"message": `Total Characters: ${selectedText.length}`
+	});
+}
+	
+	
 /*
 Create all the context menu items.
 */
 browser.menus.create({
   id: "translate-selection",
   title: browser.i18n.getMessage("menuItemSelectionTranslator"),
-  contexts: ["selection"],
-  command: "_execute_browser_action"
+  contexts: ["all"],
+  //command: "_execute_browser_action"
 }, onCreated);
 
 /*
 The click event listener, where we perform the appropriate action given the
 ID of the menu item that was clicked.
 */
-browser.menus.onClicked.addListener((info, tab) => {
-  switch (info.menuItemId) {
-    case "translate-selection":
-      console.log(info.selectionText);
-      break;
-  }
-});
+browser.menus.onClicked.addListener(germanWord);

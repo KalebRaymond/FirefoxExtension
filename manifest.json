@@ -20,7 +20,8 @@
   
   "permissions": [
     "menus",
-	"activeTab"
+	"activeTab",
+	"notifications"
   ],
   
   "browser_action": {
