@@ -1,6 +1,6 @@
 ## German Word Translator ##
 Highlight a german word, gives translation  
 
-https://cloud.google.com/translate/docs/  
+Credit to https://github.com/muaz-khan/Translator
 
-Good reference: https://github.com/tsl143/jsDemos/tree/master/wordCount_webext
+In theory, this extension works correctly, but without shelling out for a google translate API key I'll never know
