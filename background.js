@@ -27,7 +27,7 @@ function onError(error) {
 }
 
 const germanWord = info => {
-	let selectedText = info.selectionText;
+	let selectedText = info.selectionText.trim();
 	console.log(selectedText);
 	
 	browser.notifications.create({
